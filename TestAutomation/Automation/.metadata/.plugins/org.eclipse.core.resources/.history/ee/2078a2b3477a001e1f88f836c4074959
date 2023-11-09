@@ -1,0 +1,26 @@
+package com.sg.test4;
+class Demo1
+{
+
+	{
+		Demo2 O=new Demo2();
+		System.out.println("It is instance block");
+	}
+}
+class Demo2
+{
+	static 
+	{
+		System.out.println("It is a Static block");
+	}
+}
+
+
+public class Question01 {
+
+	public static void main(String[] args) {
+		Demo1 O=new Demo1();
+
+	}
+
+}

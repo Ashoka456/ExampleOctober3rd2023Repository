@@ -1,0 +1,27 @@
+package com.sg.test4;
+class Demo5
+{
+	{
+		System.out.println("It is Instance block");
+	}
+}
+class Demo6
+{
+	{
+		System.out.println("t is Instance block");
+	}
+}
+class Demo7
+{
+	{
+		System.out.println("t is Instance block");
+	}
+}
+public class Q10 {
+
+	public static void main(String[] args) {
+		Demo5 O=new Demo5();
+
+	}
+
+}
